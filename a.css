@@ -1,0 +1,128 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+body{
+  background: url('img/j.jpg');
+  background-position: center;
+}
+#sidebar{
+  position: fixed;
+  width: 200px;
+  padding-left: 30px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  left: -200px;
+}
+#sidebar.active{
+  left: 0px;
+  transition: 1s ease-in-out;
+}
+#sidebar ul li{
+  color: rgba(1, 1, 1, 0.9);
+  list-style: none;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+}
+#sidebar ul li a{
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+#sidebar ul li:hover{
+  background: purple;
+  color: white;
+  border-radius: 22px 0px 0px 22px;
+  transition: 0.8s ease-in;
+  transform: scale(1.000001);
+  margin-right: 10px;
+  transform: translateX(1.2);
+}
+#sidebar .toggle-btn{
+  position: absolute;
+  left: 230px;
+  top: 20px;
+
+}
+
+#sidebar .toggle-btn span{
+  display: block;
+  width: 30px;
+  height: 5px;
+  background: white;
+  margin: 5px 0px;
+}
+.toggle-btn{
+  border: 1px solid white;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+}
+
+.toggle-btn:active{
+  background: black;
+  transition: 1s linear;
+}
+.toggle-btn:hover{
+  background: silver;
+  transition: 1.4s linear;
+}
+.in{
+  color: white;
+  margin-left: 400px;
+}
+header{
+  padding-bottom: 20px;
+  color: white;
+  text-align: center;
+  border-right-style: groove;
+  border-bottom: 2px solid white;
+  border-bottom-style: dashed;
+}
+.hero{
+  background: url('img/pes.jpg');
+  background-position: center;
+  height: 500px;
+  width: 100%;
+  text-align: center;
+}
+.j{
+  color: red;
+}
+.f{
+  color: blue;
+}
+h2{
+  color: white;
+  display: inline;
+  float: left;
+  margin-top: 25%;
+}
+.da{
+  background: none;
+  margin-top: 200px;
+  color: white;
+  padding-left:30px;
+  min-width: 100px;
+  padding-right:10px;
+   border: 1px solid white
+}
+.c:hover{
+  background: rgba(63, 72, 204, 0.7);
+  background-origin: center;
+  background-position: left;
+  transition: 1.2s ease-in;
+  transform: scale(1.1);
+}
+.d:hover{
+  background: rgba(204, 63, 63, 0.7);
+  background-origin: center;
+  background-position: left;
+  transition: 1s ease-in;
+  transform: scale(1.1);
+}
+
+@keyframes j {
+
+}

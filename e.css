@@ -1,0 +1,54 @@
+body{
+    background: url('img/j.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.login-box{
+  max-width: 700px;
+  float: none;
+  margin: 150px auto;
+}
+.login-right{
+  background: rgba(13, 13, 13, 0.5);
+  padding: 30px;
+}
+
+.login-left{
+  background: #27031a;
+  opacity: 0.8;
+  padding: 30px;
+}
+.form-control{
+  background-color: transparent !important;
+}
+marquee{
+  margin: 0px 320px;
+  color: #27031a;
+  font-family: AR DARLING;
+  animation-name: neon;
+  animation-duration: 20s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+@keyframes neon {
+  0%{
+    color: black;
+  }
+  25%{
+    color: #27031a;
+  }
+  50%{
+    color: white;
+  }
+  75%{
+    color: #27031a;
+  }
+  100%{
+    color: white;
+  }
+}
